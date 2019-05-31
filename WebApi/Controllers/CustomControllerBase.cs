@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace WebApi.Controllers
 {
-    public class ControllerBase2 : ControllerBase
+    public class CustomControllerBase : ControllerBase
     {
         public virtual string ResponseMessage(object data)
         {
@@ -16,7 +16,7 @@ namespace WebApi.Controllers
             return "";
         }
 
-        public virtual string FormatDate(DateTime datetime)
+        public virtual string FormatDate<T>(T obj)
         {
             JsonSerializerSettings settings = new JsonSerializerSettings();
             settings.Converters.Insert(0, new IsoDateTimeConverter());
