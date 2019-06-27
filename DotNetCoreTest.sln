@@ -5,7 +5,11 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcCore.Web", "ASPNETMVC.Home\MvcCore.Web.csproj", "{B123DDC1-78E7-4993-9AE6-4AE220039DF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{A8BC8D95-900A-4FF4-996F-88CE69CCFB9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{A8BC8D95-900A-4FF4-996F-88CE69CCFB9E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ace", "Ace\Ace.csproj", "{2C216E9C-5451-4C7E-99E9-AF694F5BF821}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetEx", "DotNetEx\DotNetEx.csproj", "{2F5480F2-22AE-4BCE-90E2-C00EC4D74C42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{A8BC8D95-900A-4FF4-996F-88CE69CCFB9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8BC8D95-900A-4FF4-996F-88CE69CCFB9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8BC8D95-900A-4FF4-996F-88CE69CCFB9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C216E9C-5451-4C7E-99E9-AF694F5BF821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C216E9C-5451-4C7E-99E9-AF694F5BF821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C216E9C-5451-4C7E-99E9-AF694F5BF821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C216E9C-5451-4C7E-99E9-AF694F5BF821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F5480F2-22AE-4BCE-90E2-C00EC4D74C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F5480F2-22AE-4BCE-90E2-C00EC4D74C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F5480F2-22AE-4BCE-90E2-C00EC4D74C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F5480F2-22AE-4BCE-90E2-C00EC4D74C42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace WebApi.Controllers
 {
     [Route("api/[controller]")]
-    public class DefaultController : CustomControllerBase
+    public class DefaultController : BaseController
     {
         // GET: api/<controller>
         [HttpGet]
@@ -22,9 +22,10 @@ namespace WebApi.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            //return "value";
-            var obj = { CeatedDate = DateTime.Now };
-            return FormatDate(obj);
+            return "value";
+            //var obj = new { CeatedDate = DateTime.Now };
+            //return FormatDate(obj);
+
         }
 
         // POST api/<controller>

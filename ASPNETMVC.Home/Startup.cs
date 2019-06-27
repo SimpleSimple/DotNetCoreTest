@@ -33,6 +33,12 @@ namespace ASPNETMVC_Core
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            // 添加该配置，格式json日期格式
+            services.AddMvc().AddJsonOptions(options =>
+            {
+                options.SerializerSettings.DateFormatString = "yyyy-MM-dd HH:mm:ss";
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
